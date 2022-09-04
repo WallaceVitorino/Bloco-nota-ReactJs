@@ -1,0 +1,22 @@
+
+.card-categorias {
+}
+
+
+.lista-notas {
+  background-image: radial-gradient(circle at 12.5% 12.5%, #ff84b9 0, #ff7abf 10%, #fd70c6 20%,
+   #ed66cc 30%, #d85dd2 40%, #be55d8 50%, #9f50de 60%, #774fe4 70%, #3950e9 80%, #0052ed 90%,
+   #0055f0 100%);
+  flex-grow: 3;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style-type: none;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.lista-notas_item {
+  margin: 12px;
+  max-width: 240px;
+  max-height: 300px;
+  display: inline;
+}
